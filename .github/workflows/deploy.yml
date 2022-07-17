@@ -6,8 +6,6 @@ name: deploy
 on:
   push:
     branches: [develop]
-  pull_request:
-    branches: [develop]
 
 jobs:
   build:
@@ -67,5 +65,5 @@ jobs:
         run: aws deploy create-deployment
           --application-name hous-codedeploy
           --deployment-config-name CodeDeployDefault.OneAtATime
-          --deployment-group-name GROUP
+          --deployment-group-name PUSH
           --s3-location bucket=hous-build,bundleType=zip,key=deploy/push.zip
