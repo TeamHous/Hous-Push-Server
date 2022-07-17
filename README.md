@@ -1,2 +1,1 @@
-# Hous-Push-Server
-뚝딱뚝딱 시끄러운 하우스 푸쉬 알림 서버 만드는 중 ,, 
+![Server](https://user-images.githubusercontent.com/68772751/179411271-8b82ca9c-7c76-45bc-b5db-5fbca097f8a6.png)
